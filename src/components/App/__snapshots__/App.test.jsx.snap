@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<User
+  avatar_url="https://avatars2.githubusercontent.com/u/57576258?v=4"
+  followers_url="1"
+  following_url="3"
+  login="Surelis Segarra"
+  url="https://github.com/SuriSegarra"
+/>
 `;
