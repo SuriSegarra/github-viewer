@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users match a snapshot 1`] = `
+<ul>
+  <li>
+    <User
+      avatar_url="https://www.fillmurray.com/640/360"
+      followers_url="1"
+      following="5"
+      login="Jake"
+      url="www.jacob-cline.com"
+    />
+  </li>
+  <li>
+    <User
+      avatar_url="https://www.placecage.com/640/360"
+      followers_url="10"
+      following="59"
+      login="Nicholas"
+      url="www.nicholascage.com"
+    />
+  </li>
+  <li>
+    <User
+      avatar_url="https://www.stevensegallery.com/640/360"
+      followers_url="17"
+      following="19"
+      login="steven"
+      url="www.steven.com"
+    />
+  </li>
+</ul>
+`;
+
+exports[`Users match a users snapshot 1`] = `
+<ul>
+  <li>
+    <User
+      avatar_url="https://www.fillmurray.com/640/360"
+      followers_url="1"
+      following="5"
+      login="Jake"
+      url="www.jacob-cline.com"
+    />
+  </li>
+  <li>
+    <User
+      avatar_url="https://www.placecage.com/640/360"
+      followers_url="10"
+      following="59"
+      login="Nicholas"
+      url="www.nicholascage.com"
+    />
+  </li>
+  <li>
+    <User
+      avatar_url="https://www.stevensegallery.com/640/360"
+      followers_url="17"
+      following="19"
+      login="steven"
+      url="www.steven.com"
+    />
+  </li>
+</ul>
+`;

@@ -1,11 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<User
-  avatar_url="https://avatars2.githubusercontent.com/u/57576258?v=4"
-  followers_url="1"
-  following_url="3"
-  login="Surelis Segarra"
-  url="https://github.com/SuriSegarra"
+<Users
+  users={
+    Array [
+      Object {
+        "avatar_url": "https://www.fillmurray.com/640/360",
+        "followers_url": "1",
+        "following": "5",
+        "login": "Jake",
+        "url": "www.jacob-cline.com",
+      },
+      Object {
+        "avatar_url": "https://www.placecage.com/640/360",
+        "followers_url": "10",
+        "following": "59",
+        "login": "Nicholas",
+        "url": "www.nicholascage.com",
+      },
+      Object {
+        "avatar_url": "https://www.stevensegallery.com/640/360",
+        "followers_url": "17",
+        "following": "19",
+        "login": "steven",
+        "url": "www.steven.com",
+      },
+    ]
+  }
 />
 `;
