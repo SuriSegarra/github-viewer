@@ -5,7 +5,7 @@ const UserInfo = ({ login, followers, following, url, avatar }) => (
   <figure>
     <img src={avatar} alt={login}/>
     <figcaption>
-      <h1>{login}</h1>
+      <h1>User:{login}</h1>
       <p>Followers:{followers}</p>
       <p>Following:{following}</p>
       <p>Profile:{url}</p>

@@ -1,12 +1,10 @@
 //fetching api
 export const fetchUser = (username) => {
   return fetch(`https://api.github.com/users/${username}`)
-    .then(res => res.json())
-    .then(json => json.results);
+    .then(res => res.json());
 };
 
-export const fetchRepo = (username) => {
+export const fetchRepos = (username) => {
   return fetch(`"https://api.github.com/users/${username}/repos`)
-    .then(res => res.json())
-    .then(json => json.results);
+    .then(res => res.json());
 };

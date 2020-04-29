@@ -6,7 +6,9 @@ import UserSearch from './UserSearch';
 describe('UserSearch', () => {
   it('matches a userSearch snapshot', () => {
     const wrapper = shallow(<UserSearch 
-      username='something'/>);
+      username='Surelis Segarra'
+      onUserChange={() => {}}
+      onUserSubmit={() => {}}/>);
     expect(wrapper).toMatchSnapshot();
   });
 });

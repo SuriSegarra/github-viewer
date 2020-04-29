@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repo matches a repo snapshot 1`] = `
+<li>
+  <p>
+    Surelis Segarra
+  </p>
+  <p>
+    https://github.com/SuriSegarra
+  </p>
+</li>
+`;

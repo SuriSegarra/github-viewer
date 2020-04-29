@@ -4,14 +4,15 @@ exports[`UserSearch matches a userSearch snapshot 1`] = `
 <Fragment>
   <input
     name="username"
+    onChange={[Function]}
     type="text"
-    value="something"
+    value="Surelis Segarra"
   />
-  <button
+  <input
     name="search"
+    onClick={[Function]}
     type="button"
-  >
-    Search
-  </button>
+    value="Search"
+  />
 </Fragment>
 `;
