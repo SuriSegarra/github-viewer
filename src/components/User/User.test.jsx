@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import User from './User';
 
 describe('User', () => {
-  it('matches a snapshot', () => {
+  it('matches a user snapshot', () => {
     const wrapper = shallow(<User login='Surelis Segarra' 
       followers_url='1' 
       following_url='3' 

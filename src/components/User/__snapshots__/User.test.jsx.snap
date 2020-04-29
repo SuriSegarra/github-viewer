@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`User matches a snapshot 1`] = `
+exports[`User matches a user snapshot 1`] = `
 <figure>
   <img
     alt="Surelis Segarra"
@@ -11,7 +11,7 @@ exports[`User matches a snapshot 1`] = `
       Surelis Segarra
     </p>
     <p>
-      Followes:
+      Followers:
       1
     </p>
     <p>

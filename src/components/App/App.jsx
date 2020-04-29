@@ -6,6 +6,7 @@ export default function App() {
   
   const users = [
     {
+      id: 1,
       login: 'Jake',
       followers_url:'1',
       following:'5',
@@ -13,6 +14,7 @@ export default function App() {
       avatar_url: 'https://www.fillmurray.com/640/360'
     },
     {
+      id: 2, 
       login: 'Nicholas',
       followers_url:'10',
       following:'59',
@@ -20,6 +22,7 @@ export default function App() {
       avatar_url: 'https://www.placecage.com/640/360'
     },
     {
+      id: 3,
       login: 'steven',
       followers_url:'17',
       following:'19',
