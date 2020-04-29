@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const UserInfo = ({ login, followers, following, url, avatar }) => (
+const UserInfo = ({ login, followers, following, url, avatar_url }) => (
   <figure>
-    <img src={avatar} alt={login}/>
+    <img src={avatar_url} alt={login}/>
     <figcaption>
-      <h1>User:{login}</h1>
+      <h1>{login}</h1>
       <p>Followers:{followers}</p>
       <p>Following:{following}</p>
       <p>Profile:{url}</p>
@@ -18,7 +18,7 @@ UserInfo.propTypes = {
   followers: PropTypes.string.isRequired,
   following: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired
+  avatar_url: PropTypes.string.isRequired
 
 };
 

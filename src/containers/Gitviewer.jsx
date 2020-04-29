@@ -12,16 +12,16 @@ export default class Gitviewer extends Component {
         followers: 0,
         following: 0,
         html_url: ''
-      },
-      repos: [],
-      search: false
+      }
+      // repos: [],
+      // search: false
     }
     handleUserChange = ({ target }) => {
       this.setState({ username: target.value });
     };
 
     handleUserSubmit = () => {
-      fetchUser(this.username)
+      fetchUser(this.state.username)
         .then(user => this.setState({ user }));
       fetchRepos(this.state.username)
         .then(repos => this.setState({ repos, search: true }));
