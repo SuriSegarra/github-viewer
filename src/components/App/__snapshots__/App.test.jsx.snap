@@ -1,7 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<Users
+  users={
+    Array [
+      Object {
+        "avatar_url": "https://www.fillmurray.com/640/360",
+        "followers_url": "1",
+        "following": "5",
+        "id": 1,
+        "login": "Jake",
+        "url": "www.jacob-cline.com",
+      },
+      Object {
+        "avatar_url": "https://www.placecage.com/640/360",
+        "followers_url": "10",
+        "following": "59",
+        "id": 2,
+        "login": "Nicholas",
+        "url": "www.nicholascage.com",
+      },
+      Object {
+        "avatar_url": "https://www.stevensegallery.com/640/360",
+        "followers_url": "17",
+        "following": "19",
+        "id": 3,
+        "login": "steven",
+        "url": "www.steven.com",
+      },
+    ]
+  }
+/>
 `;

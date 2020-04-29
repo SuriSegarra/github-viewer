@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo matches a userInfo snapshot 1`] = `
+<figure>
+  <img
+    alt="Surelis Segarra"
+    src="https://avatars2.githubusercontent.com/u/57576258?v=4"
+  />
+  <figcaption>
+    <h1>
+      User:
+      Surelis Segarra
+    </h1>
+    <p>
+      Followers:
+      1
+    </p>
+    <p>
+      Following:
+      3
+    </p>
+    <p>
+      Profile:
+      https://github.com/SuriSegarra
+    </p>
+  </figcaption>
+</figure>
+`;

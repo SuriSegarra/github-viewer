@@ -1,6 +1,13 @@
 import React from 'react';
+// import User from '../User/User';
+// import Users from '../Users/Users';
+import Gitviewer from '../../containers/Gitviewer';
 
 export default function App() {
-  return <h1>Hello World</h1>;
-}
   
+  return (
+    <Gitviewer/>
+
+  );
+}
+

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repos matches repos snapshot 1`] = `
+<ul>
+  <Repo
+    html_url="https://github.com/SuriSegarra/-recipe-app"
+    id={1}
+    key="1"
+    name="-recipe-app"
+  />
+  <Repo
+    html_url="https://github.com/SuriSegarra/About-Me"
+    id={2}
+    key="2"
+    name="About-Me"
+  />
+</ul>
+`;
